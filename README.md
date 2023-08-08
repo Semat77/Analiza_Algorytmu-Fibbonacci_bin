@@ -32,12 +32,14 @@ czy n jest równe 1 i jeśli tak, zwraca 1. Jeśli n jest mniejsze lub równe 0,
 
   
 5.	Wykres zależności czasu wykonania do rozmiaru zadania 
+
 Wykres otrzymany dzięki modułowi matplotlib wraz z timeit. Złożoność związana z obliczaniem ciągu Fibonacciego rekurencyjnie, gdzie każde wywołanie funkcji powoduje dwa kolejne wywołania 
   
  ![image](https://github.com/Semat77/Analiza_Algorytmu-Fibbonacci_bin/assets/100786337/f76013dd-844f-4355-a31d-4c6406925d08)
 
  
 6. Oszacowanie złożoności czasowej 
+
 Możemy ją przedstawić jako O(2^n), ponieważ każdy element ciągu Fibonacciego jest obliczany za pomocą dwóch poprzednich takich elementów.
 Czas wykonania tego algorytmu to T(n) = T(n-1) + T(n-2) + O(1) dlatego, iż oparta jest ona na rekurencji (przez to, iż tak zaimplementowałem ciąg Fibonacciego) 
  
