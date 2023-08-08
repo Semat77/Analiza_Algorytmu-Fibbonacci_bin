@@ -1,6 +1,7 @@
 Budowa i analiza algorytmów – ćwiczenia Raport z realizacji mini projektu 
  
 1. Treść zadania 
+
 Ciąg Fibonacciego zdefiniowany jest następująco: 
 Fib(1) = 1 
 Fib(2) = 1 
@@ -16,6 +17,7 @@ elementy ciągu Fibonacciego nie mogą być stablicowane.
 
 
 2. Opis słowny algorytmu 
+
 Dane wejściowe : liczba binarna Dane wyjściowe : liczba dziesiętna 
 jest obliczany funkcją rekurencyjną, która zwraca n-ty element ciągu Fibonacciego. Funkcja sprawdza, 
 czy n jest równe 1 i jeśli tak, zwraca 1. Jeśli n jest mniejsze lub równe 0, funkcja zwraca 0. W przeciwnym razie, funkcja zwraca sumę dwóch poprzednich elementów ciągu (obliczonych za pomocą wywołań rekurencyjnych). 
