@@ -49,7 +49,7 @@ Czas wykonania tego algorytmu to T(n) = T(n-1) + T(n-2) + O(1) dlatego, iż opar
 ![image](https://github.com/Semat77/Analiza_Algorytmu-Fibbonacci_bin/assets/100786337/ee4a986c-f098-4819-a3aa-6b6ccce07b06)
 
  
-8. Podsumowanie i wnioski 
+8. Podsumowanie i wnioski
 
 Algorytm ma za zadanie umożliwić użytkownikowi wprowadzenie liczby binarnej i zamianę jej na wartość dziesiętną.
 Wartość dziesiętna jest obliczana jako suma odpowiednich elementów ciągu Fibonacciego, dla każdej jedynki w podanej liczbie binarnej. 
