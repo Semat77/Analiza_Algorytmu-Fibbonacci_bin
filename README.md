@@ -50,5 +50,6 @@ Czas wykonania tego algorytmu to T(n) = T(n-1) + T(n-2) + O(1) dlatego, iż opar
 
  
 8. Podsumowanie i wnioski 
+
 Algorytm ma za zadanie umożliwić użytkownikowi wprowadzenie liczby binarnej i zamianę jej na wartość dziesiętną.
 Wartość dziesiętna jest obliczana jako suma odpowiednich elementów ciągu Fibonacciego, dla każdej jedynki w podanej liczbie binarnej. 
